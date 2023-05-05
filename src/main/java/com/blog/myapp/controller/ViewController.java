@@ -29,7 +29,7 @@ public class ViewController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "Main";
+		return "main";
 	}
 	
 	@RequestMapping("/view/dashboard")
